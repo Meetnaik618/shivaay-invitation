@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>Shivaay Turns ONE 🎂 | You're Invited</title>
+  
+  <!-- SEO & Meta Description -->
+  <meta name="description" content="Join us as we celebrate Shivaay's very first birthday. 26 September 2026 • 7:00 PM • Virar West">
+  <meta name="author" content="Sneha Naik &amp; Saurabh Naik">
+  <meta name="theme-color" content="#FBF9F5">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="./">
+  
+  <!-- Open Graph / WhatsApp Preview Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="./">
+  <meta property="og:title" content="Shivaay Turns ONE 🎂 | You're Invited">
+  <meta property="og:description" content="Join us as we celebrate Shivaay's very first birthday. 26 September 2026 • 7:00 PM • Virar West">
+  <meta property="og:image" content="og-image.jpg">
+  <meta property="og:image:secure_url" content="og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Shivaay's 1st Birthday Invitation">
+  <meta property="og:site_name" content="Shivaay's 1st Birthday">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter / X Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shivaay Turns ONE 🎂 | You're Invited">
+  <meta name="twitter:description" content="Join us as we celebrate Shivaay's very first birthday. 26 September 2026 • 7:00 PM • Virar West">
+  <meta name="twitter:image" content="og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Golden Dust & Celestial Twinkle Canvas -->
+  <canvas id="ambient-canvas"></canvas>
+
+  <!-- Ambient Background Glows -->
+  <div class="bg-glow-orb bg-glow-1"></div>
+  <div class="bg-glow-orb bg-glow-2"></div>
+
+  <!-- Confetti / Sparkle Layer -->
+  <div id="confetti-container" class="confetti-layer"></div>
+
+  <!-- Floating Ambient Music Box Toggle -->
+  <button id="audio-toggle" class="audio-control-btn" title="Toggle Soft Melody" aria-label="Toggle Soft Background Music">
+    <svg class="sound-icon" viewBox="0 0 24 24">
+      <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+    </svg>
+  </button>
+
+  <!-- =====================================================================
+       FULLSCREEN ROYAL OPENING SCREEN
+       ===================================================================== -->
+  <div id="opening-overlay" class="opening-overlay">
+    <div class="opening-card">
+      <div class="gold-frame-border"></div>
+      
+      <!-- Corner Filigree Ornaments -->
+      <svg class="corner-filigree corner-tl" viewBox="0 0 24 24"><path d="M0 0v24C0 10.745 10.745 0 24 0H0z" fill="currentColor"/></svg>
+      <svg class="corner-filigree corner-tr" viewBox="0 0 24 24"><path d="M0 0v24C0 10.745 10.745 0 24 0H0z" fill="currentColor"/></svg>
+      <svg class="corner-filigree corner-bl" viewBox="0 0 24 24"><path d="M0 0v24C0 10.745 10.745 0 24 0H0z" fill="currentColor"/></svg>
+      <svg class="corner-filigree corner-br" viewBox="0 0 24 24"><path d="M0 0v24C0 10.745 10.745 0 24 0H0z" fill="currentColor"/></svg>
+
+      <!-- Wax Seal Monogram -->
+      <div class="wax-seal-wrapper">
+        <div class="wax-seal">
+          <div class="wax-seal-inner">
+            <span class="wax-seal-initial">S</span>
+            <span class="wax-seal-stars">✦ ✦ ✦</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="opening-pretitle">You're Invited</p>
+      <h1 class="opening-name">SHIVAAY</h1>
+      <p class="opening-milestone">Turns ONE</p>
+
+      <p class="opening-quote">
+        “Come celebrate his very first birthday with us.”
+      </p>
+
+      <button id="open-invitation-btn" class="btn-gold-primary" type="button" aria-label="Open Invitation">
+        <span>Open Invitation</span>
+        <svg class="btn-sparkle-icon" viewBox="0 0 24 24">
+          <path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MAIN INVITATION CONTENT
+       ===================================================================== -->
+  <main class="invitation-wrapper">
+    <div id="main-invitation" class="main-invitation">
+      
+      <!-- 1. Hero & Invitation Headline Card -->
+      <section class="luxury-card hero-card">
+        <div class="gold-frame-border"></div>
+
+        <div class="celestial-badge">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/></svg>
+          <span>A Year of Blessings</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/></svg>
+        </div>
+
+        <p class="hero-quote">
+          One year of tiny smiles,<br>
+          little giggles &amp; countless memories...
+        </p>
+
+        <div class="hero-divider">
+          <div class="divider-line"></div>
+          <span class="divider-star">✦</span>
+          <div class="divider-line"></div>
+        </div>
+
+        <p class="invitation-for">Celebrating</p>
+        <h2 class="hero-baby-name">SHIVAAY</h2>
+        <p class="hero-subheading">1st Birthday Celebration</p>
+
+        <!-- Date & Time Highlight Card -->
+        <div class="datetime-box">
+          <p class="date-day">Saturday</p>
+          <p class="date-full">26 September 2026</p>
+          <div class="date-time">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+            </svg>
+            <span>7:00 PM IST</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Live Countdown Section -->
+      <section class="luxury-card countdown-section">
+        <div class="gold-frame-border"></div>
+        <p class="section-label">Counting Down</p>
+        <h3 class="section-title">To The Big Day</h3>
+
+        <div id="countdown-grid" class="countdown-grid">
+          <div class="countdown-tile">
+            <span id="cd-days" class="countdown-number">00</span>
+            <span class="countdown-unit">Days</span>
+          </div>
+          <div class="countdown-tile">
+            <span id="cd-hours" class="countdown-number">00</span>
+            <span class="countdown-unit">Hours</span>
+          </div>
+          <div class="countdown-tile">
+            <span id="cd-minutes" class="countdown-number">00</span>
+            <span class="countdown-unit">Mins</span>
+          </div>
+          <div class="countdown-tile">
+            <span id="cd-seconds" class="countdown-number">00</span>
+            <span class="countdown-unit">Secs</span>
+          </div>
+        </div>
+
+        <div id="countdown-completed" class="event-completed-msg">
+          <h4 class="event-completed-title">Thank you for celebrating with us! ❤️</h4>
+          <p style="color: var(--text-secondary); font-size: 0.92rem;">The joy of your presence made this day unforgettable.</p>
+        </div>
+      </section>
+
+      <!-- 3. Venue & Location Section -->
+      <section class="luxury-card venue-card">
+        <div class="gold-frame-border"></div>
+
+        <div class="venue-icon-wrapper">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+        </div>
+
+        <p class="section-label">The Venue</p>
+        <h3 class="venue-name">Champa</h3>
+
+        <div class="venue-address">
+          <p>Bolinj Sopara Road</p>
+          <p>Virar West</p>
+          <span class="venue-landmark">📍 Near Peepal Tree</span>
+        </div>
+
+        <div class="venue-actions">
+          <a href="https://maps.google.com/?q=Champa+Bolinj+Sopara+Road+Virar+West+Near+Peepal+Tree" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="btn-gold-primary"
+             id="open-maps-btn">
+            <svg style="width: 18px; height: 18px; fill: currentColor;" viewBox="0 0 24 24">
+              <path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/>
+            </svg>
+            <span>Open in Google Maps</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- 4. Add to Calendar Section -->
+      <section class="luxury-card" style="padding: 28px 20px;">
+        <div class="gold-frame-border"></div>
+        <p class="section-label">Save The Date</p>
+        <h3 class="section-title" style="margin-bottom: 6px;">Add to Calendar</h3>
+        <p style="color: var(--text-secondary); font-size: 0.88rem; margin-bottom: 16px;">
+          Set a reminder so you don't miss any magical moments!
+        </p>
+
+        <div class="calendar-options-grid">
+          <!-- Google Calendar -->
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Shivaay%27s+1st+Birthday&dates=20260926T133000Z%2F20260926T170000Z&details=Join+us+as+we+celebrate+Shivaay%27s+very+first+birthday!+Hosted+by+Sneha+Naik+%26+Saurabh+Naik.&location=Champa%2C+Bolinj+Sopara+Road%2C+Virar+West%2C+Near+Peepal+Tree" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="btn-cal-choice" 
+             id="cal-google-btn">
+            <svg viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
+            <span>Google Calendar</span>
+          </a>
+
+          <!-- Apple / iCal / Outlook -->
+          <button type="button" class="btn-cal-choice" id="cal-ical-btn">
+            <svg viewBox="0 0 24 24"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
+            <span>Apple / iCal</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- 5. RSVP on WhatsApp -->
+      <section class="luxury-card rsvp-card">
+        <div class="gold-frame-border"></div>
+
+        <svg class="rsvp-heart-icon" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+
+        <h3 class="rsvp-title">Will you join us?</h3>
+        <p class="rsvp-subtitle">
+          “Your presence will make Shivaay's special day even more memorable.”
+        </p>
+
+        <a href="https://api.whatsapp.com/send?text=Hello%20Sneha%20%26%20Saurabh!%20We%20would%20love%20to%20attend%20Shivaay%27s%201st%20Birthday.%20%E2%9D%A4%EF%B8%8F" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="btn-gold-primary btn-whatsapp" 
+           id="rsvp-whatsapp-btn">
+          <svg style="width: 20px; height: 20px; fill: currentColor;" viewBox="0 0 24 24">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm0 18.15c-1.49 0-2.95-.4-4.23-1.16l-.3-.18-3.13.82.84-3.05-.2-.31a8.168 8.168 0 01-1.25-4.38c0-4.51 3.67-8.18 8.18-8.18 2.19 0 4.24.85 5.79 2.4 1.54 1.55 2.39 3.6 2.39 5.79 0 4.51-3.67 8.17-8.18 8.17zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.12.17 1.77 2.71 4.3 3.8 2.52 1.09 2.52.73 2.98.69.45-.04 1.47-.6 1.67-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/>
+          </svg>
+          <span>RSVP on WhatsApp</span>
+        </a>
+      </section>
+
+      <!-- 6. Share Invitation & Copy Link -->
+      <section class="luxury-card share-section">
+        <div class="gold-frame-border"></div>
+        <p class="section-label">Spread The Joy</p>
+        <h3 class="section-title" style="font-size: 1.6rem; margin-bottom: 6px;">Share Invitation</h3>
+        
+        <div class="share-buttons-stack">
+          <!-- WhatsApp Share Button -->
+          <a href="#" class="btn-gold-primary" id="share-whatsapp-btn">
+            <svg style="width: 18px; height: 18px; fill: currentColor;" viewBox="0 0 24 24">
+              <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/>
+            </svg>
+            <span>Share Invitation on WhatsApp</span>
+          </a>
+
+          <!-- Copy Link Button -->
+          <button type="button" class="btn-gold-outline" id="copy-link-btn">
+            <svg style="width: 17px; height: 17px; fill: currentColor;" viewBox="0 0 24 24">
+              <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+            </svg>
+            <span>Copy Invitation Link</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- 7. Hosts & Closing Section -->
+      <footer class="luxury-card hosts-card">
+        <div class="gold-frame-border"></div>
+
+        <p class="hosts-label">With Love</p>
+        <h3 class="hosts-names">Sneha Naik &amp; Saurabh Naik</h3>
+
+        <div class="closing-divider"></div>
+
+        <p class="closing-message">
+          “Your presence is the greatest gift.<br>
+          See you there! 🎂✨”
+        </p>
+
+        <p class="closing-signature">
+          With love,<br>
+          Sneha &amp; Saurabh
+        </p>
+      </footer>
+
+    </div>
+  </main>
+
+  <!-- Toast Notification for Copy Link -->
+  <div id="toast-notice" class="toast-notice" role="status" aria-live="polite">
+    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+    <span class="toast-text">Link copied!</span>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
