@@ -2,7 +2,7 @@
 
 A bespoke, royal luxury, mobile-first digital invitation website designed specifically for **Shivaay's 1st Birthday Celebration**.
 
-Featuring a **Royal Warm Brown & Champagne Gold** aesthetic with a **Pitch** theme accent, interactive balloon reveal animation, custom social preview metadata, interactive countdown, Google Maps venue navigation, calendar integration, and ambient music.
+Featuring a **Royal Warm Brown & Champagne Gold** aesthetic with a **Peach** theme accent, interactive balloon reveal animation, custom social preview metadata, interactive countdown, Google Maps venue navigation, calendar integration, and ambient music.
 
 ---
 
@@ -14,7 +14,7 @@ Featuring a **Royal Warm Brown & Champagne Gold** aesthetic with a **Pitch** the
 | **Date** | Saturday, 26 September 2026 |
 | **Time** | 7:00 PM IST |
 | **Venue** | 422, Champa Niwas, Bolinj Sopara Road, Virar West, Near Peepal Tree |
-| **Theme Color for the Eve** | Pitch |
+| **Theme Color for the Eve** | Peach |
 | **Hosts** | Saurabh Naik & Sneha Naik |
 
 ---
@@ -31,13 +31,13 @@ Featuring a **Royal Warm Brown & Champagne Gold** aesthetic with a **Pitch** the
 3. **Balloon Reveal Animation**:
    - 10 theme-colored balloons (Chocolate brown, Warm mocha, Champagne gold, Ivory cream, Soft peach, Subtle beige) gracefully ascend from the bottom on opening.
 4. **Brown Luxury Theme**:
-   - Bespoke Royal Mocha, Warm Chocolate Brown, Champagne Gold, and Pitch accents.
+   - Bespoke Royal Mocha, Warm Chocolate Brown, Champagne Gold, and Peach accents.
 5. **Hero Celebration Section**:
    - `SHIVAAY'S FIRST BIRTHDAY CELEBRATION` with family portrait focal card.
 6. **Venue Section**:
    - Address: `422, Champa Niwas, Bolinj Sopara Road, Virar West, Near Peepal Tree`.
 7. **Theme Color for the Eve**:
-   - Dedicated celebration dress code card with a glowing **Pitch** swatch.
+   - Dedicated celebration dress code card with a glowing **Peach** swatch.
 8. **Heartfelt Closing Section**:
    - “Your presence is the greatest gift. See you there! 🎂✨”
    - With Love, Saurabh & Sneha Naik.

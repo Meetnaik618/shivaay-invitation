@@ -389,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
     requestAnimationFrame(renderParticles);
   }
 
-  // 6. Confetti / Sparkle Burst Effect (Brown, Gold & Pitch Palette)
+  // 6. Confetti / Sparkle Burst Effect (Brown, Gold & Peach Palette)
   function triggerConfettiBurst() {
     const confettiContainer = document.getElementById('confetti-container');
     if (!confettiContainer) return;
