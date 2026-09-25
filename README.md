@@ -15,7 +15,7 @@ Featuring a **Royal Warm Brown & Champagne Gold** aesthetic with a **Pitch** the
 | **Time** | 7:00 PM IST |
 | **Venue** | 422, Champa Niwas, Bolinj Sopara Road, Virar West, Near Peepal Tree |
 | **Theme Color for the Eve** | Pitch |
-| **Hosts** | Sneha Naik & Saurabh Naik |
+| **Hosts** | Saurabh Naik & Sneha Naik |
 
 ---
 
@@ -40,7 +40,7 @@ Featuring a **Royal Warm Brown & Champagne Gold** aesthetic with a **Pitch** the
    - Dedicated celebration dress code card with a glowing **Pitch** swatch.
 8. **Heartfelt Closing Section**:
    - “Your presence is the greatest gift. See you there! 🎂✨”
-   - With Love, Sneha & Saurabh Naik.
+   - With Love, Saurabh & Sneha Naik.
 
 ---
 
